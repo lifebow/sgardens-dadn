@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_garden"
+        android:icon="@drawable/sg_garden"
+        android:title="@string/sprout_label" />
+
+    <item
+        android:id="@+id/navigation_config"
+        android:icon="@drawable/sg_filter"
+        android:title="@string/config_label" />
+
+    <item
+        android:id="@+id/navigation_user"
+        android:icon="@drawable/sg_user"
+        android:title="@string/account_label" />
+
+</menu>

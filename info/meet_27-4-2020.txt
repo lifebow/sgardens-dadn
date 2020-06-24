@@ -1,0 +1,25 @@
+III. Mô tả ứng dụng:
+- Do sự lây lan và tác hại của dịch bệnh COVID-19 hiện nay, nhóm em lên ý tưởng
+một ứng dụng IOT điều khiển phòng tự động, có thể áp dụng vào phòng học nhằm
+tránh sự tiếp xúc lên các bề mặt điều khiển phòng nhiều, đồng thời có thể kiểm tra
+tình trạng của phòng từ xa, thiết lập các kịch bản điều khiển tự động. Với những ưu
+điểm ấy, tránh được việc phải tiếp xúc với những vị trí có nhiều người chạm tay.
+IV. Yêu cầu chức năng (functional features):
+1. Theo dõi các thông số của
+các thiết bị, hiển thị nhiệt độ, độ ẩm, cường độ
+ánh sáng.
+2. Cảnh báo đến người sử dụng khi độ ẩm, ánh sáng vượt mức cho phép theo
+quy chuẩn của phòng học.
+3. Điều khiển các thiết bị output (VD: đèn).
+4. Người dùng có thể thiết lập các kịch bản riêng (thông số của nhiệt độ, độ
+ẩm, cường độ ánh sáng) khi đó sẽ thông báo đến người dùng và điều khiển
+các thiết bị từ động theo yêu cầu.
+Thống kê và lưu lại báo cáo về giá trị (nhiệt độ, độ ẩm, cường độ ánh sáng)
+theo ngày/tháng/năm và lượng điện năng tiêu thụ của các thiết bị theo ngày,
+tháng, năm để thực hiện chi trả tiền điện.
+V. Yêu cầu phi chức năng (non-functional features):
+1. Thời gian từ khi thiết bị đo đến khi hiển thị trên màn hình là 0.5s.
+2. Tính toán thống kê theo ngày chính xác đến 95%
+3. Khả năng cảnh báo khi các thông số vượt mức cho phép chính xác đến 100%
+4. Thời gian đèn sáng sau khi có được cường độ ánh sáng
+5. Dữ liệu thống kê được lưu trữ hàng ngày không quá 2MB.
